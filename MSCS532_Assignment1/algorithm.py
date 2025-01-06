@@ -4,7 +4,7 @@ def insertion_sort_decreasing(arr):
         key = arr[i]  # The current element to be inserted
         j = i - 1  # Start comparing with the element before it
         
-        # moving the elements of an array in decreasing order
+        # moving the elements of an array 
         while j >= 0 and arr[j] < key:
             arr[j + 1] = arr[j]
             j -= 1
